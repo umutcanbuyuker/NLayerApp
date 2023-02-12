@@ -6,7 +6,7 @@ namespace NLayer.Code.Repositories
     {
         Task<T> GetByIdAsync(int id);
         // productRepository.GetAll(x=>x.id>5).ToList();
-        IQueryable<T> GetAll(Expression<Func<T, bool>> expression);
+        IQueryable<T> GetAll();
         //productRepository.where(x => x.id >5).OrderBy.ToListAsync(); T classına göre sorgu yapıp sonucu bool döndürüyoruz
         IQueryable<T> Where(Expression<Func<T, bool>> expression);
         Task<bool> AnyAsync(Expression<Func<T, bool>> expression);

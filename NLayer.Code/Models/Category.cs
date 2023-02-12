@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NLayer.Code
+namespace NLayer.Code.Models
 {
     public class Category : BaseEntity
     {

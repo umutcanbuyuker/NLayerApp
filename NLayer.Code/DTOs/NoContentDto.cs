@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NLayer.Code.UnitOfWorks
+namespace NLayer.Code.DTOs
 {
-    public interface IUnitOfWork
+    public class NoContentDto
     {
-        Task CommitAsync();
-        void Commit();
+        
     }
 }
